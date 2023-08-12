@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(20, 162, 155);
+
+}
+a{
+    
+    text-decoration: none;
+    
+}
+button{
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+    
+
+}
+body{
+    background-color: rgb(194, 194, 180);
+    margin: 0px;
+}
+header{
+    display: inline-flex;
+    height: 90px;
+    width: 100%;
+    background-color:blue;
+    align-items: center;
+    position: sticky;
+    
+    top: 0;
+}
+span{
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    border-radius: .1em;
+
+}
+header h1{
+    color: aliceblue;
+    margin-left:3% ;
+
+}
+header a{
+    padding: 1%;
+
+}
+
+.search{
+    margin-left: 50%;
+    margin-right: 5%;
+    padding: .4%;
+    border-radius: 1em;
+    background-color: aliceblue;
+}
+input{
+    border: 0px;
+}
+
+main{
+    
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 1%;
+    
+}
+.topimg{
+    height: 350px;
+    width: 100%;
+    border-radius: .3em; 
+}
+.profile{
+    
+    font-weight: bold;
+    display: inline-flex;
+    width: 100%;
+    height: 12em;
+    margin-top: 1%;
+    background-color: white;
+    border-radius: .4em;
+    align-items: center;
+
+}
+.other-pro-img img{
+    width: 7%;
+    border-radius: 50%;
+    
+}
+.profile div:nth-child(1){
+    display: flex;
+}
+.fr-mes button{
+    margin: 2%;
+    height: 40px;
+    width: 130px;
+    border: 0px;
+    background-color: rgb(161, 160, 158);
+    border-radius: .2em;
+}
+.bio{
+    padding-left: 3%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+
+}
+.menu{
+    border-radius: .1em;
+    margin-left: 70%;
+    margin-top: 10%;
+    width: 50px;
+    font-weight: bolder;
+    font-size: xx-large;
+    border: 0px;
+    text-align: center;
+    background-color: rgb(148, 156, 156);
+    
+}
+.inner-grid{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px;
+    justify-content: center;
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+    
+    
+
+}
+.inner-grid img{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+.content{
+    display: grid;
+    grid-template-columns: 35% 64%;
+    grid-template-rows: 250px 100px 180px 190px 60px 420px;
+    grid-row-gap: 8px;
+    grid-column-gap: 8px;
+    margin-top: 8px;
+
+}
+
+
+.Intro{
+    align-content: center;
+    background-color:rgb(255, 255, 255);
+    list-style-type: disc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 3%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    border-radius: .5em;
+
+
+}
+.Intro li{
+    list-style-type: disc;
+
+}
+.Intro p{
+    
+    box-shadow: 0px 3px 0px black;
+    padding-bottom: 20px;
+
+}
+.post{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    grid-column: 2/3;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: .5em;
+
+
+}
+.post p{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+   list-style-type: none;
+}
+.post select{
+    margin-left: 2px;
+    margin-bottom: 15px;
+}
+.post a{
+    
+    padding: 10px;
+}
+.person-img{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    grid-column: 1/2;
+    grid-row: 3/6;
+    padding: 3%;
+    border-radius: .5em;
+  
+
+}
+.post-1{
+    background-color: rgb(255, 255, 255);
+    grid-row: 2/5;
+    border-radius: .5em;
+
+
+
+}
+.post-1 a{
+    padding-right: 25px;
+    
+    
+}
+.friends{
+    background-color: rgb(255, 255, 255);
+    grid-row: 6/7;
+    padding: 10px;
+    border-radius: .5em;
+    
+
+}
+.post-2{
+    background-color: rgb(255, 255, 255);
+    grid-row: 5/7;
+    border-radius: .5em;
+}
+.post-2 a{
+    padding-right: 25px;
+    
+}
+
